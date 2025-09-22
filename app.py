@@ -11,15 +11,15 @@ st.set_page_config(
 st.title("Helmet Safety Detection with YOLOv11")
 st.markdown("Upload một ảnh và hệ thống sẽ trả về kết quả nhận diện.")
 
-
 # Load model
 @st.cache_resource
 def load_model():
-    return YOLO("C:\\Users\\Danh\\Downloads\\best (1).pt")
+    # Đường dẫn tương đối trong repo
+    return YOLO("models/helmet_detection_best.pt")
 
 model = load_model()
 
-# Load image
+# Upload image
 uploaded_file = st.file_uploader("📷 Upload an image", type=["jpg", "png", "jpeg"])
 
 if uploaded_file:
@@ -29,11 +29,11 @@ if uploaded_file:
     # Detection
     results = model(img)
 
-    # Ảnh có bounding box
+    # Annotated image
     annotated_img = results[0].plot()
     st.image(annotated_img, caption="Kết quả nhận diện", use_container_width=True)
 
-    # Result Table
+    # Result table
     boxes = results[0].boxes
     if boxes is not None and len(boxes) > 0:
         data = []
