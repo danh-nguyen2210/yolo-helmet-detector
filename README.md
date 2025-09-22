@@ -19,6 +19,15 @@
 
 👉 [Truy cập ứng dụng Streamlit tại đây](https://yolo-helmet-detector.streamlit.app/)
 
+Ảnh gốc vs kết quả nhận diện:
+
+| Ảnh gốc | Kết quả |
+|---------|---------|
+| ![Worker 1](demo/worker1.png) | ![Worker 1 Result](demo/worker1_result.png) |
+| ![Worker 2](demo/worker2.png) | ![Worker 1 Result](demo/worker2_result.png) |
+
+
+
 ## 📂 Cấu trúc dự án
 
 ```bash
