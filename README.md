@@ -17,7 +17,7 @@
 
 ## 🚀 Demo
 
-👉 [Truy cập ứng dụng Streamlit tại đây]([https://yolo-helmet-detector.streamlit.app/])
+👉 [Truy cập ứng dụng Streamlit tại đây](https://yolo-helmet-detector.streamlit.app/)
 
 ## 📂 Cấu trúc dự án
 
