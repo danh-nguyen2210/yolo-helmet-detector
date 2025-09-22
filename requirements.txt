@@ -1,9 +1,9 @@
 streamlit==1.29.0
 ultralytics==8.3.202
-torch==2.8.0+cpu
-torchvision==0.23.0+cpu
+torch==2.8.0
+torchvision==0.23.0
 opencv-python-headless==4.12.0.88
 pillow==11.3.0
 pandas==2.2.2
 numpy==2.0.2
-scipy==1.10.1  # ← QUAN TRỌNG: dùng phiên bản cũ hơn có wheel sẵn
+scipy==1.10.1
