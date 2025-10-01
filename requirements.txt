@@ -7,4 +7,3 @@ numpy
 Pillow
 pandas
 pyyaml
-python-3.12
